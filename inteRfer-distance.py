@@ -274,7 +274,7 @@ else:
 ################### Chargement des fichiers ####################################
 d_support=chargement_fichier("csv/SUP_SUPPORT.txt", 1)
 d_station=chargement_fichier("csv/SUP_STATION.txt", 0)
-d_insee=chargement_fichier("csv/code-postal-code-insee-2015.csv", 4)
+d_insee=chargement_fichier("csv/code-insee.csv", 4)
 l_support_GsmR, l_station_GsmR = liste_unique("csv/SUP_EMETTEUR.txt",GsmR)
 l_support_GsmP, l_station_GsmP = liste_unique("csv/SUP_EMETTEUR.txt",B900)
 d_les_supports, d_dept, d_dept_geo=chargement_support("csv/SUP_SUPPORT.txt")
