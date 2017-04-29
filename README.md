@@ -39,4 +39,4 @@ Vérifie que la version du jeu de données dans le répertoire est bien à jour.
 
 
 `python inteRfer.py -d 5` Affiche les supports GSM-Public distants de moins de 5 km avec un support GSM-R.<br>
-[A VENIR] : filtrage pour n'afficher qu'un département<p>
+`python inteRfer.py -d 5 -f 75` Affiche les supports GSM-Public distants de moins de 5 km avec un support GSM-R situés dans le département 75.<p>
