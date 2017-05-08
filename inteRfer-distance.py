@@ -247,7 +247,7 @@ def affichage_support(liste, couleur):
         data_sup = d_les_supports[support]
         geo=data_sup[0]
         html=str(support)
-        iframe = folium.element.IFrame(html=html, width=275, height=175)
+        iframe = folium.IFrame(html=html, width=275, height=175)
         popup = folium.Popup(iframe, max_width=2650)
         folium.Marker(geo,\
         popup=popup, icon = folium.Icon(color=couleur)).add_to(marker_cluster)
